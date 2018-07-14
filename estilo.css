@@ -8,13 +8,13 @@ body{
 header{
     width: 100%;
     height: 10px;
-    background-color: #2ccd70;
+    background-color: #2ccb6f;
     margin: 0;
 }
 
 .Imagem-de-fundo{
     width: 100%;
-    height: 73vh;
+    height: 78vh;
     display: flex;
     align-content: center;
     justify-content: center ;
@@ -23,7 +23,7 @@ header{
 
 .banner{
     width: 100%;
-    height: 73vh;
+    height: 78vh;
     z-index: -2;
     position: absolute;
     margin: 0;
@@ -32,7 +32,7 @@ header{
 article{
     display: flex;
     height: 100%;
-    width: 60%;
+    width: 67%;
     margin: 0;
     align-items: center;
     justify-content: center;
@@ -42,15 +42,10 @@ article{
     position: relative;
     margin: 0;
     height: 50%;
-    left: 0;
+    left: 45px;
     width: 100%;
 }
 
-.icones1{
-    border-radius: 2px blue;
-    margin: 0;
-
-}
 
 .imagem-mao{
     position: absolute;
@@ -71,38 +66,85 @@ article{
     color: white;
     margin:0;
     font-weight: 100;
-    font-size: 32pt;
+    font-size: 37pt;
 }
 
 .textobanner p{
     font-family: 'Roboto', sans-serif;
     color: white;
-    width: 53%;
+    width: 46%;
     font-size: 16pt;
 }
 
-section{
+
+.icones{
+    display: flex;
+    justify-content: space-between;
+    width: 19%;
+}
+
+.icones1{
+    background-color: rgba(0,0,0, 0.4);
+    border-radius: 100px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icones1 img{
+    width: 50%;
+    height: 50%;
+}
+
+.section2{
     display: flex;
     width: 100%;
     height: 50vh;
     background-color: white;
-    flex-direction: column;
+    justify-content: center;
     border-radius: 2px blue;
 
 }
 
 .item{
-    border-radius: 2px blue;
-}
-
-.icones{
     display: flex;
     flex-direction: column;
+    width: 38vh;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
-.icones1{
-    background-color: black;
-    border-radius: 100px;
-    width: 4%;
-    height: 7%;
+.item h2,h3,h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    font-weight: normal;
+}
+
+
+.item p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 9pt;
+    color: grey;
+    text-align: justify;
+    margin: 0;
+}
+
+.iconesverdes{
+    background-color: #2ccb6f;
+    border-radius: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+}
+
+.iconesverdes img{
+    width: 40px;
+    height: 40px;
 }
