@@ -148,3 +148,72 @@ article{
     width: 40px;
     height: 40px;
 }
+
+
+
+.section3{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    background-color: rgb(211, 211, 211, 0.4);
+    height: 315px;
+
+}
+
+.textosection3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 42%;
+    margin-left: 200px;
+    align-items: normal;
+    justify-content: normal;
+}
+
+}
+
+.textosection3 h1{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15pt;
+    left: 0;
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+.textosection3 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 11pt;
+    color: grey;
+    margin: 0;
+
+}
+
+#botoes{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#botoes input{
+    height: 44px;
+    width: 200px;
+    background-color: white;
+    border-radius: 8%;
+    margin: 0;
+    padding: 0;
+    border: 1px;
+}
+
+}
+#botoes button{
+    height: 44px;
+    width: 65px;
+    background-color: green;
+    border-radius: 8%;
+    margin: 0;
+    padding: 0;
+    border: 1px;
+}
+
+.videosection3 video{
+        border-radius: 3%;
+}
