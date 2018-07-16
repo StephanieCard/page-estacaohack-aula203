@@ -169,8 +169,6 @@ article{
     justify-content: normal;
 }
 
-}
-
 .textosection3 h1{
     display: inline-block;
     font-family: 'Roboto', sans-serif;
@@ -203,7 +201,6 @@ article{
     border: 1px;
 }
 
-}
 #botoes button{
     height: 44px;
     width: 65px;
@@ -224,6 +221,7 @@ article{
     width: 100%;
     height: 200px;
     background-color: white;
+    display: flex;
 
 }
 
